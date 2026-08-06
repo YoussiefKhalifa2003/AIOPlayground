@@ -1,0 +1,18 @@
+{
+  "type": "function",
+  "function": {
+    "name": "repo_files",
+    "parameters": {
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Path to list files in. If not provided, lists files in the root of the repository."
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "type: "object"
+    }
+  }
+}
