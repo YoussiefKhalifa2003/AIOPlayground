@@ -1,0 +1,10 @@
+{
+  "type": "function",
+  "function": {
+    "name": "repo_files",
+    "parameters": {
+      "command": "ls",
+      "path": "/"
+    }
+  }
+}
